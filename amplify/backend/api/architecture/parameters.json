@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "architecture",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "autharchitecturefd47bae0",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2023-11-21T22:31:38.577Z"
+}
